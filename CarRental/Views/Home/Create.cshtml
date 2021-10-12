@@ -1,0 +1,38 @@
+﻿@model CarRental.Models.Car
+
+@{
+    ViewData["Title"] = "Добавление автомобиля";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" asp-controller="Home">
+    <div>
+        <div class="form-group">
+            <label asp-for="Brand"> Марка: </label>
+            <input type="text" asp-for="Brand" class="form-control form-control-sm" />
+        </div>
+        <div class="form-group">
+            <label asp-for="BodyType"> Тип кузова: </label>
+            <input asp-for="BodyType" class="form-control  form-control-sm" />
+        </div>
+        <div class="form-group">
+            <label asp-for="ModelYear"> Модельный год: </label>
+            <input asp-for="ModelYear" class="form-control  form-control-sm" />
+        </div>
+        <div class="form-group">
+            <label asp-for="RentPrice">Стоимость аренды: </label>
+            <input asp-for="RentPrice" class="form-control  form-control-sm" />
+        </div>
+        <div class="form-group">
+            <label asp-for="CollateralValue">Стоимость залога: </label>
+            <input asp-for="CollateralValue" class="form-control  form-control-sm" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Сохранить" class="btn btn-outline-secondary" />
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-controller="Home" asp-action="Index">Вернуться к списку</a>
+</div>

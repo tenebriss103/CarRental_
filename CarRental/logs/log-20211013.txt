@@ -1,0 +1,20 @@
+2021-10-13 02:47:20.156 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-13 02:47:20.217 +03:00 [INF] Hosting environment: Development
+2021-10-13 02:47:20.218 +03:00 [INF] Content root path: D:\Проги\Новая папка\CarRental
+2021-10-13 02:47:20.271 +03:00 [INF] Запуск стартовой страницы
+2021-10-13 02:47:22.006 +03:00 [INF] HTTP GET / responded 200 in 1811.8921 ms
+2021-10-13 02:47:24.443 +03:00 [INF] Удаление данных
+2021-10-13 02:47:24.627 +03:00 [INF] HTTP GET /Home/Delete/1002 responded 200 in 207.5921 ms
+2021-10-13 02:47:25.886 +03:00 [INF] HTTP POST /Home/Delete/1002 responded 302 in 19.8185 ms
+2021-10-13 02:47:25.891 +03:00 [INF] Запуск стартовой страницы
+2021-10-13 02:47:25.894 +03:00 [INF] HTTP GET / responded 200 in 2.4774 ms
+2021-10-13 02:47:27.679 +03:00 [INF] HTTP GET /Home/Create responded 200 in 45.7106 ms
+2021-10-13 02:47:39.239 +03:00 [INF] Создание новых записей
+2021-10-13 02:47:39.245 +03:00 [INF] HTTP POST /Home/Create responded 302 in 18.2369 ms
+2021-10-13 02:47:39.250 +03:00 [INF] Запуск стартовой страницы
+2021-10-13 02:47:39.252 +03:00 [INF] HTTP GET / responded 200 in 2.2573 ms
+2021-10-13 02:47:41.070 +03:00 [INF] Изменение данных
+2021-10-13 02:47:41.092 +03:00 [INF] HTTP GET /Home/Edit/2002 responded 200 in 24.0820 ms
+2021-10-13 02:47:45.978 +03:00 [INF] HTTP POST /Home/Edit/2002 responded 302 in 7.2413 ms
+2021-10-13 02:47:45.982 +03:00 [INF] Запуск стартовой страницы
+2021-10-13 02:47:45.984 +03:00 [INF] HTTP GET / responded 200 in 1.4998 ms

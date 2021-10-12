@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CarRental.Models.Car>
+@{
+    ViewData["Title"] = "Список автомобилей";
+}
+<h2>@ViewData["Title"]</h2>
+<p>
+    <a asp-controller="Home" asp-action="Create">Добавить</a>
+</p>
+<table class="table">
+    <tr>
+        <th>Марка</th>
+        <th>Тип кузова</th>
+        <th>Модельный год</th>
+        <th>Стоимость аренды</th>
+        <th>Стоимость залога</th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>@item.Brand</td>
+    <td>
+        @item.BodyType
+    </td>
+    <td>
+        @item.ModelYear
+    </td>
+    <td>
+        @item.RentPrice
+    </td>
+    <td>
+        @item.CollateralValue
+    </td>
+    <td>
+        <a asp-controller="Home" asp-action="Edit" asp-route-id="@item.Id">Изменить</a> |
+        <a asp-controller="Home" asp-action="Delete" asp-route-id="@item.Id">Удалить</a>
+    </td>
+</tr>
+    }
+</table>

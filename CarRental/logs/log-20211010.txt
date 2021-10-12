@@ -1,0 +1,25 @@
+2021-10-10 19:07:34.062 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-10 19:07:34.103 +03:00 [INF] Hosting environment: Development
+2021-10-10 19:07:34.105 +03:00 [INF] Content root path: C:\Users\ANASTASIYA\source\repos\CarRental\CarRental
+2021-10-10 19:07:34.173 +03:00 [INF] Запуск стартовой страницы
+2021-10-10 19:07:34.974 +03:00 [INF] HTTP GET / responded 200 in 880.9011 ms
+2021-10-10 19:09:28.335 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-10 19:09:28.375 +03:00 [INF] Hosting environment: Development
+2021-10-10 19:09:28.376 +03:00 [INF] Content root path: C:\Users\ANASTASIYA\source\repos\CarRental\CarRental
+2021-10-10 19:09:28.443 +03:00 [INF] Запуск стартовой страницы
+2021-10-10 19:09:29.025 +03:00 [INF] HTTP GET / responded 200 in 653.8651 ms
+2021-10-10 19:11:23.578 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-10 19:11:23.631 +03:00 [INF] Hosting environment: Development
+2021-10-10 19:11:23.632 +03:00 [INF] Content root path: C:\Users\ANASTASIYA\source\repos\CarRental\CarRental
+2021-10-10 19:11:23.685 +03:00 [INF] Запуск стартовой страницы
+2021-10-10 19:11:24.262 +03:00 [INF] HTTP GET / responded 200 in 651.4388 ms
+2021-10-10 19:15:16.470 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-10 19:15:16.525 +03:00 [INF] Hosting environment: Development
+2021-10-10 19:15:16.526 +03:00 [INF] Content root path: C:\Users\ANASTASIYA\source\repos\CarRental\CarRental
+2021-10-10 19:15:16.583 +03:00 [INF] Запуск стартовой страницы
+2021-10-10 19:15:17.185 +03:00 [INF] HTTP GET / responded 200 in 680.5611 ms
+2021-10-10 19:15:19.256 +03:00 [INF] Изменение данных
+2021-10-10 19:15:19.374 +03:00 [INF] HTTP GET /Home/Edit/1002 responded 200 in 146.6022 ms
+2021-10-10 19:15:23.710 +03:00 [INF] HTTP POST /Home/Edit/1002 responded 302 in 38.2993 ms
+2021-10-10 19:15:23.715 +03:00 [INF] Запуск стартовой страницы
+2021-10-10 19:15:23.717 +03:00 [INF] HTTP GET / responded 200 in 2.3216 ms

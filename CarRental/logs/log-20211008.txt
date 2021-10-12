@@ -1,0 +1,49 @@
+2021-10-08 18:30:10.756 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-08 18:30:10.796 +03:00 [INF] Hosting environment: Development
+2021-10-08 18:30:10.797 +03:00 [INF] Content root path: C:\Users\ANASTASIYA\source\repos\CarRental\CarRental
+2021-10-08 18:30:10.865 +03:00 [ERR] HTTP GET / responded 500 in 73.3479 ms
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CarRental.Controllers.HomeController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2021-10-08 18:30:10.957 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CarRental.Controllers.HomeController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-10-08 18:31:30.820 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-08 18:31:30.852 +03:00 [INF] Hosting environment: Development
+2021-10-08 18:31:30.853 +03:00 [INF] Content root path: C:\Users\ANASTASIYA\source\repos\CarRental\CarRental
+2021-10-08 18:31:30.924 +03:00 [INF] Запуск стартовой страницы
+2021-10-08 18:31:32.386 +03:00 [INF] HTTP GET / responded 200 in 1538.4306 ms
+2021-10-08 18:31:37.788 +03:00 [INF] HTTP GET /Home/Create responded 200 in 65.9762 ms
+2021-10-08 18:31:47.811 +03:00 [INF] Создание новых записей
+2021-10-08 18:31:47.871 +03:00 [INF] HTTP POST /Home/Create responded 302 in 98.6976 ms
+2021-10-08 18:31:47.876 +03:00 [INF] Запуск стартовой страницы
+2021-10-08 18:31:47.879 +03:00 [INF] HTTP GET / responded 200 in 2.6501 ms
+2021-10-08 18:31:52.552 +03:00 [INF] Удаление данных
+2021-10-08 18:31:52.639 +03:00 [INF] HTTP GET /Home/Delete/2 responded 200 in 89.6192 ms
+2021-10-08 18:31:54.829 +03:00 [INF] HTTP POST /Home/Delete/2 responded 302 in 6.4843 ms
+2021-10-08 18:31:54.834 +03:00 [INF] Запуск стартовой страницы
+2021-10-08 18:31:54.836 +03:00 [INF] HTTP GET / responded 200 in 2.0810 ms
